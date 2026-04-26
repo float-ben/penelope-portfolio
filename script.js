@@ -5,8 +5,6 @@ const sections = [...navLinks]
   .map((link) => document.querySelector(link.getAttribute("href")))
   .filter(Boolean);
 
-document.getElementById("year").textContent = new Date().getFullYear();
-
 const revealObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
