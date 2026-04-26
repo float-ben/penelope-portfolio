@@ -1,6 +1,6 @@
 # Penelope Cai Portfolio
 
-Static resume portfolio website designed for GitHub Pages.
+Penelope's portfolio website!
 
 ## Files
 
